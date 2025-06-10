@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Producer Playground</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&family=Nobile:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Nosifer&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+</head>
+<body class="bg-black text-white">
+    <nav class="flex items-center justify-between px-8 py-4 bg-black">
+        <div class="flex items-center space-x-8">
+            <div class="text-white text-xl font-bold"><img src="rasm/IMAGE.png" alt=""></div>
+            <ul class="flex space-x-6 text-sm text-gray-300">
+                <li><a href="#">Sounds</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Plugins</a></li>
+                <li><a href="#">Studio</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Pricing</a></li>
+            </ul>
+        </div>
+    
+        <button class="bg-white text-black px-4 py-1 rounded-3xl">Sign up</button></nav>
+    <section class="relative bg-cover bg-center h-[600px]" style="background-image: url('rasm/bg.png')">
+        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center px-10">
+            <div>
+                <h1 class="text-6xl  font-bold mb-4 w-96">Step into the producer’s playground</h1>
+                <p class="mb-6 text-lg text-gray-300 max-w-md">Explore the world’s best sample library and an unmatched
+                    marketplace of plugins and DAWs.</p>
+                <button class="bg-blue-600 text-white px-5 py-2 rounded">Try free</button>
+            </div>
+        </div>
+    </section>
+    <section class="bg-black text-white py-16 px-6">
+        <h2 class="text-[28px] leading-[36px] font-normal text-center font-['Roboto']">
+            About Catalog</h2>
+            <div class="flex items-center justify-between px-10 py-20 bg-black text-white">
+                <div class="space-y-4">
+                    <h3 class="text-3xl font-semibold max-w-md">A catalog so deep, it’s dangerous.</h3>
+                    <p class="text-gray-300 max-w-md">
+                        Expertly created and curated samples in any style imaginable. Start swimming in sound.
+                    </p>
+                    <button class="bg-blue-600 px-6 py-2 rounded">Explore Sounds</button>
+                </div>
+
+                <img src="rasm/IMAGE (2).png" alt="Catalog Image" class="w-[380px] h-[386px]"/></div>
+        </section>
+    <section class="bg-black px-8 py-16 flex flex-col md:flex-row items-center gap-10">
+        <img src="rasm/IMAGE (3).png" alt="workflow" class="w-full md:w-1/2 rounded shadow">
+        <div>
+            <h3 class="text-2xl font-semibold mb-4">A workflow that actually flows.</h3>
+            <p class="text-gray-300 mb-6">Preview samples in your track’s key and tempo, drag and drop sounds into your
+                DAW, and organize your favorite samples, MIDI and presets in one place.</p>
+            <button class="bg-blue-600 px-6 py-2 rounded">Workflow</button>
+        </div>
+    </section>
+
+    <section class="bg-gray-900 px-8 py-16 grid md:grid-cols-3 gap-8 text-center">
+        <div class="bg-gray-800 p-6 rounded">
+            <img src="rasm/IMAGE (4).png" class="w-20 h-20 mx-auto rounded-full mb-4" alt="Andrew">
+            <p class="text-sm text-gray-300 mb-2">I can always find what I’m looking for on Splice, whether it’s the
+                exact sound I want or just a bit of inspiration.</p>
+            <p class="text-gray-400 text-sm">Andrew Huang</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded">
+            <img src="rasm/IMAGE (5).png" class="w-20 h-20 mx-auto rounded-full mb-4" alt="KSHMR">
+            <p class="text-sm text-gray-300 mb-2">Finally a way to buy plugins that works. By paying a little at a time,
+                producers can get legit access to the top VSTs.</p>
+            <p class="text-gray-400 text-sm">KSHMR</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded">
+            <img src="rasm/IMAGE (6).png" class="w-20 h-20 mx-auto rounded-full mb-4" alt="Keisha">
+            <p class="text-sm text-gray-300 mb-2">It’s been fun to dive into Splice’s creator community and explore
+                tools that support my own creative process.</p>
+            <p class="text-gray-400 text-sm">Keisha Lee</p>
+        </div>
+    </section>
+    <footer class="bg-gray-950 text-gray-500 text-sm text-center py-6">
+        <p>© 2022 Splice.com All Rights Reserved.</p>
+        <div class="mt-2 flex justify-center space-x-4">
+            <a href="#" class="hover:underline">Terms of Use</a>
+            <a href="#" class="hover:underline">Privacy Policy</a>
+            <a href="#" class="hover:underline">Jobs</a>
+            <a href="#" class="hover:underline">Contact</a>
+            <a href="#" class="hover:underline">Help</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
